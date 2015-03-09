@@ -1,0 +1,23 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !=sb.intraaktion.de
+RewriteRule (.*) http://sb.intraaktion.de/$1 [R=301,L]
+
+Redirect 302 /index.html /about/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) /about/ [R=302]
+
+#Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#Prevent directory listings
+Options SymLinksIfOwnerMatch -Indexes
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
