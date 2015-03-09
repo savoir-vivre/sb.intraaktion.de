@@ -1,0 +1,86 @@
+: ahrf
+
+:: Was ist ahrf? ::
+
+ahrf ist eine Art, Elemente in einem Text gut lesbar zu markieren und ein zugehöriges Skript, das die Dokumente in HTML exportieren kann.
+Es arbeitet gut zusammen mit wswsh.
+Homepage: https://github.com/Ypnose/ahrf
+
+:: Syntax (wichtigstes) ::
+
+::: Überschriften :::
+
+====
+: für den Titel :
+:: für eine Überschrift ::
+::: für eine kleinere Überschrift :::
+:::: für eine noch kleinere Überschrift ::::
+usw.
+====
+
+Die hinteren Doppelpunkte sind optional.
+
+::: Listen :::
+
+Listenelemente beginnen mit einem "*".
+Vor und nach einer Liste muss eine leere Zeile stehen.
+Leere Zeilen zwischen Listenelementen sind nicht erlaubt (weil eine leere Zeile eine neue Liste markiert).
+
+====
+ 
+* ausschlafen
+* etwas frittieren
+* zu viel Frittiertes essen
+* weiterschlafen
+ 
+====
+
+::: Links, Fußnoten :::
+
+Eine solche Liste am Ende der Datei, die mit [0] oder [1] beginnt:
+
+====
+[0] https://github.com/
+[1] http://netbsd.org/
+[2] http://ywstd.fr/
+[666] http://www.libressl.org/
+====
+
+wird in klickbare Links exportiert. Entsprechend sollten die eckig eingeklammerten Zahlen an passender Stelle im Text eingefügt werden, wie Fußnoten:
+
+====
+Ich habe etwas gelesen [1], und ich habe
+noch etwas anderes gelesen [2].
+====
+
+Sollen Verweise gesetzt werden, die keine Links sind, schlage ich vor, sie in runde Klammern zu setzen und dann vor der Link-Liste am Ende der Datei aufzulisten.
+
+====
+(1) Vgl. Santa Claus, S. 95.
+(777) Vgl. Peter Pan, S. 2667.
+ 
+[0] https://github.com/
+[2] http://ywstd.fr/
+====
+
+Das halte ich noch für verbesserungswürdig.
+
+::: Code :::
+
+Codeblöcke, die nicht interpretiert werden sollen, werden so umklammert:
+
+====
+====
+
+====
+====
+
+Leere Zeilen sind nicht erlaubt. Zeilen müssen mindestens mit einer Leerzeile gefüllt sein.
+
+::: gezielte Zeilenumbrüche :::
+
+Ein gezielter Zeilenumbruch wird mit einem Leerzeichen am Ende der gebrochenen Zeile erzeugt.
+
+Detailliertere Einblicke auf der Homepage [1].
+
+[1] https://github.com/Ypnose/ahrf
