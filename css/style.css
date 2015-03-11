@@ -289,7 +289,8 @@ footer {
         font-size:100px;
 	margin:0 auto;
 }
-#h0 p {
+#h0 a {
+	text-decoration:none;
 	margin: 0;
 	line-height: 90%;
 	white-space: pre;
