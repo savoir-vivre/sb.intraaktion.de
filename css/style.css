@@ -281,7 +281,7 @@ footer {
 }
 /* THE SKEL */
 #h0 {
-	border-bottom:3px solid #080808;
+	border-bottom:3px solid black;
 	max-width:99%;
         font-size:100px;
 	margin:0 auto;
@@ -293,6 +293,15 @@ footer {
 	display:block;
 	line-height: 90%;
 	white-space: pre;
+}
+#gitlink {
+	text-decoration:none;
+	border-bottom: dotted black;
+	}
+#gitlink a {
+	color: black;
+	text-decoration:none;
+	font-size: 13px:
 }
 #con {
 	position:relative;
