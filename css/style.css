@@ -296,11 +296,11 @@ footer {
 }
 #gitlink {
 	border-bottom: dotted black;
+	padding: 0 0 10px 0;
 	}
 #gitlink a {
 	color: black;
 	font-size: 13px;
-	padding: 0 0 10px 0;
 }
 #con {
 	position:relative;
