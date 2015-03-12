@@ -27,6 +27,14 @@ Dabei muss jeder Überschrift eine leere Zeile vorausgehen und folgen.
 
 Die hinteren Doppelpunkte sind optional.
 
+::: Kursiv :::
+
+dass //diese Phrase kursiv ist//, diese nicht, funktioniert so:
+
+====
+//diese Phrase ist kursiv//, diese nicht
+====
+
 ::: Listen :::
 
 Listenelemente beginnen mit einem "*".
