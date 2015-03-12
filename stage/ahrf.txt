@@ -11,12 +11,19 @@ Homepage: https://github.com/Ypnose/ahrf
 ::: Überschriften :::
 
 ====
+ 
 : für den Titel :
+ 
 :: für eine Überschrift ::
+ 
 ::: für eine kleinere Überschrift :::
+ 
 :::: für eine noch kleinere Überschrift ::::
+ 
 usw.
 ====
+
+Dabei muss jeder Überschrift eine leere Zeile vorausgehen und folgen.
 
 Die hinteren Doppelpunkte sind optional.
 
