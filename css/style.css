@@ -155,10 +155,10 @@ nav ul, nav dl {
 	text-align:justify;
 }*/
 h1 {
-	font-size:24px;
+	font-size:22px;
 }
 h2 {
-	font-size:20px;
+	font-size:18px;
 	padding-left:16px;
 }
 h3 {
@@ -299,7 +299,7 @@ footer {
 }
 #paper {
 	max-width:800px;
-	margin:10px 0 0 400px;
+	margin:10px 0 0 300px;
 	padding:20px 28px;
 	z-index:9999;
 }
@@ -361,7 +361,7 @@ blockquote {
 		width:250px;
 	}
 	#paper {
-		margin:5px 0 0 310px;
+		margin:5px 0 0 250px;
 	}
 }
 @media screen and (max-width:950px) {
