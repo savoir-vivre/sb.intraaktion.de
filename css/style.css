@@ -111,7 +111,7 @@ html,body,#con {
 	height:100%
 }
 body,h5,#desc,p code {
-	font-size:16px;
+	font-size:14px;
 }
 pre,footer {
 	font-size:15px;
@@ -140,9 +140,9 @@ h4,a,a:visited {
 pre,p code {
 	border:1px solid grey;
 }
-#desc,article {
+/*#desc,article {
 	line-height:28px;
-}
+}*/
 #emblem,nav ul {
 	padding:0;
 }
@@ -155,20 +155,17 @@ nav ul, nav dl {
 	text-align:justify;
 }*/
 h1 {
-	font-size:26px;
-	padding:0 0 6px;
-	line-height:36px;
+	font-size:24px;
 }
 h2 {
-	font-size:22px;
+	font-size:20px;
 	padding-left:16px;
-	line-height:30px;
 }
 h3 {
-	font-size:18px;
+	font-size:16px;
 }
 h4 {
-	font-size:16px;
+	font-size:14px;
 	margin-bottom:0;
 }
 h5 {
@@ -200,7 +197,7 @@ nav {
 }
 nav,nav a,nav a:visited {
 	color: black;
-	font-size:22px;
+	font-size:18px;
 	font-style:normal;
 	text-decoration:none;
 }
