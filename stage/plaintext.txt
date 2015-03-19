@@ -1,6 +1,6 @@
 : Plädoyer für Plaintext
 
-:: dumme Textverarbeitung
+:: erweiterte Textverarbeitung
 
 Es gibt bereits eine große Menge an Möglichkeiten Texte zu produzieren und zu verteilen, die auch munter praktiziert werden. Zwei allgemeinere Bereiche lassen sich abstecken: 
 Im Kontext einer Homepage, eines Blogs, etc. steht im Hintergrund meist ein CMS. Und genau da bleiben die Texte dann auch meist, bis das CMS veraltet ist, die Blog-Plattform nicht mehr hip ist und ein Umzug der Texte zu aufwendig wäre. 
@@ -30,7 +30,7 @@ Anders ist nicht zu erklären, dass im alltäglichen Verfassen von Texten
 
 Es ist vermutlich nicht einfach nachzuvollziehen, wie viel Aufwand das ganze bereits schon bedeutet hat, wenn keine Expertise zu allen involvierten Fachbereichen vorhanden ist. Ich würde aber selbstbewusst davon ausgehen, dass alle Pyramiden zusammen weniger Arbeitsstunden gekostet haben. Und das in Anbetracht dessen, dass diese seit Jahrtausenden stehen. Die elektronische Verarbeitung von Text kann im Vergleich dazu noch immer ganze Industrien beschäftigen und durchfüttern, ohne dass ein Ende in Sicht ist. Die ständige Selbstbeschäftigung am immer gleichen Problem funktioniert super und was würden junge versierte Menschen am Ende noch mit ihrer Zeit anfangen, wenn sie nicht ständig Dokumente für andere wiederherstellen, konvertieren, passende Programme installieren, einrichten und pflegen müssten. Am Ende noch etwas sinnvolles.
 
-:: kluge Textverarbeitung
+:: beschränkte Textverarbeitung
 
 Was, wenn wir an der Stelle neu ansetzen, die technisch ohnehin notwendig und dem direkten Text am nächsten ist.
 
