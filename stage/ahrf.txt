@@ -95,6 +95,19 @@ f
 ====
 ====
 
+::: Zitate :::
+
+Zitate stehen in einer Monospace-Schriftart und sind eingerückt:
+
+====
+----
+"Language matters. Discourse matters. Culture matters. There is
+an important sense in which the only thing, that doesn't seem to
+matter anymore is matter." Karen Barad - Agential Realism 
+(to matter - von Bedeutung sein / matter - Materie)
+----
+====
+
 Leere Zeilen sind nicht erlaubt. Zeilen müssen mindestens mit einer Leerzeile gefüllt sein.
 Unveränderter Text ist praktisch, um zB sowas wie ahrf zu demonstrieren, ohne dass die Markierungszeichen im HTML-Export übersetzt werden.
 Oder um Code im dafür besser geeigneten Monospace-Font darzustellen und ohne, dass Sinn verändernde Formatierungen sich einmischen.
